@@ -1,0 +1,28 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-platinum: #dbdfe6;
+    --color-vermillon: #ea4e48;
+    --color-vermillon-dark: #b02f1b;
+    --color-vermillon-darker: #8c2617;
+    --color-seasalt: #fcfafa;
+    --color-cadet-gray: #9fa9bc;
+    --color-space-cadet: #2b2b42;
+    --color-dark-purple: #160c28;
+}
+
+
+body {
+font-family: 'Poppins', sans-serif;
+    background-color: var(--color-seasalt);
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
