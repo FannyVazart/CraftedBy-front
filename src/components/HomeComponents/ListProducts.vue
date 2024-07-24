@@ -1,6 +1,5 @@
 <script setup>
 import EcommerceCard from '@/components/EcommerceCard.vue'
-import Pagination from '@/components/HomeComponents/Pagination.vue'
 import CategoryList from '@/components/HomeComponents/CategoryList.vue'
 
 import { useProductsStore } from '@/stores/Productstore.js'
